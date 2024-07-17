@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DKMS>
+  <DKM INIT="plksvcLoad"
+       PATH="dkm_lib_plk.out" />
+  <DKM INIT="opcuaInit"
+       PATH="dkm_opcua.out.gz"
+       PROBE="probeOpcUa" />
+  <DKM INIT="ScmScRegister"
+       PATH="dkm_scm.out" />
+  <DKM INIT="dkm_arUTFrameworkInit"
+       PATH="dkm_arUTFramework.out"
+       SUPPRESS_WARNING="1" />
+  <DKM INIT="dkm_arUT_Init"
+       PATH="dkm_arUT.out"
+       PROBE="probeUT"
+       SUPPRESS_WARNING="1" />
+  <DKM INIT="dkmGdbserverBrelfInit"
+       PATH="dkm_gdbserver_brelf.out"
+       PROBE="probeGdbServer"
+       SUPPRESS_WARNING="0" />
+  <DKM INIT="dkmGdbserverIpaInit"
+       PATH="dkm_gdbserver_ipa.out"
+       PROBE="probeGdbServer"
+       SUPPRESS_WARNING="0" />
+  <DKM INIT="dkm_rbac_Init"
+       PATH="dkm_rbac.out"
+       SUPPRESS_WARNING="0" />
+</DKMS>

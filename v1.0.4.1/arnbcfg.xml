@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BootSettings>
+	<Target>
+		<PIPCONFIG Path="Default_APCRTH/pipconfig.xml" />
+	</Target>
+	<Station Node="default">
+		<Include Name="Default_APCRTH_RemoteInstall/RemoteInstall.xml" />
+	</Station>
+</BootSettings>

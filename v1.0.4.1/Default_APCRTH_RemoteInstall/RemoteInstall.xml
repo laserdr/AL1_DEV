@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?BR Image Settings Version="1.0"?>
+<ImageSettings>
+	<Section Id="System" Version="0.0.0" Force="true">
+		<Delete Name="C:/Brm" Type="dir" />
+		<Delete Name="C:/System" Type="dir" />
+		<Delete Name="C:/arimg" Type="file" />
+		<Delete Name="C:/RPSHD/SYSROM" Type="dir" />
+		<Delete Name="C:/RPSHDS/SYSROM" Type="dir" />
+		<Delete Name="D:/RPSHD/SYSROM" Type="dir" />
+		<Delete Name="E:/RPSHDS/SYSROM" Type="dir" />
+		<File Source="Default_APCRTH_RemoteInstall/Brm/@cfAPCRTH.br" Destination="C:/Brm" />
+		<File Source="Default_APCRTH_RemoteInstall/Brm/@sbAPCRTH.br" Destination="C:/Brm" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/COMPONENTS/ArLcTextP.br" Destination="C:/System/BASE/COMPONENTS" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/COMPONENTS/ArUnitSys.br" Destination="C:/System/BASE/COMPONENTS" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/0030#0.bl.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45517a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45518a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45519a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45520a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45521a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45522a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45523a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/45524a1.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/4884a0.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/4884b0.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/4884_0.pci.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5277a0.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5277b0.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5277_0.pci.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5278a0.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5278_0.pci.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5279a0.fw.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/FW/5279_0.pci.gz" Destination="C:/System/BASE/FW" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/HWD/AsHwdapcrth.xml.gz" Destination="C:/System/BASE/HWD" />
+		<File Source="Default_APCRTH_RemoteInstall/System/BASE/HWD/AsHwdhw_upl.xml.gz" Destination="C:/System/BASE/HWD" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkms.xml" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkm_gdbserver_brelf.out" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkm_gdbserver_ipa.out" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkm_lib_plk.out" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkm_opcua.out.gz" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkm_rbac.out" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/DKM/dkm_scm.out" Destination="C:/System/DKM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/RTH/license.txt" Destination="C:/System/RTH" />
+		<File Source="Default_APCRTH_RemoteInstall/System/RTH/rthx86" Destination="C:/System/RTH" />
+		<File Source="Default_APCRTH_RemoteInstall/System/SDM/arsdm.tar.gz" Destination="C:/System/SDM" />
+		<File Source="Default_APCRTH_RemoteInstall/System/TOC/fscfg.xml" Destination="C:/System/TOC" />
+		<File Source="Default_APCRTH_RemoteInstall/System/TOC/ftoc.xml" Destination="C:/System/TOC" />
+		<File Source="Default_APCRTH_RemoteInstall/System/WEBSERV/ArWebServ.br" Destination="C:/System/WEBSERV" />
+		<File Source="Default_APCRTH_RemoteInstall/arconfig.br" Destination="C:/RPSHD/SYSROM" />
+		<File Source="Default_APCRTH_RemoteInstall/arconfig.br" Destination="C:/RPSHDS/SYSROM" />
+		<File Source="Default_APCRTH_RemoteInstall/asfw.br" Destination="C:/RPSHD/SYSROM" />
+		<File Source="Default_APCRTH_RemoteInstall/asfw.br" Destination="C:/RPSHDS/SYSROM" />
+		<File Source="Default_APCRTH_RemoteInstall/ashwd.br" Destination="C:/RPSHD/SYSROM" />
+		<File Source="Default_APCRTH_RemoteInstall/ashwd.br" Destination="C:/RPSHDS/SYSROM" />
+		<File Source="Default_APCRTH_RemoteInstall/arimg" Destination="C:" />
+		<Reboot Type="cold" />
+	</Section>
+</ImageSettings>

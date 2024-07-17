@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PIPCONFIG>
+	<InstallationSettings>
+		<ForceInitialInstallation>0</ForceInitialInstallation>
+		<AllowInitialInstallation>1</AllowInitialInstallation>
+		<IgnoreVersion>1</IgnoreVersion>
+		<AllowDowngrade>0</AllowDowngrade>
+		<AllowPartitioning>1</AllowPartitioning>
+		<Reboot>0</Reboot>
+		<CiR>0</CiR>
+		<!--AllowGPOSReboot is only relevant for hypervisor targets-->
+		<AllowGPOSReboot>1</AllowGPOSReboot>
+		<KeepPvValues>1</KeepPvValues>
+		<ExecuteEI>1</ExecuteEI>
+		<ConsistentInstallation>1</ConsistentInstallation>
+	</InstallationSettings>
+	<!--Warning: Do not edit beyond this line-->
+	<Info>
+		<ConfigId>Master</ConfigId>
+		<CompatibleCpuCode>5PPC2200.AL18-000</CompatibleCpuCode>
+		<OrderNo>5PPC2200.AL18-000</OrderNo>
+		<ArType>AR Hypervisor</ArType>
+		<ConfigVersion>2.1.1</ConfigVersion>
+		<PartitionInfos>
+			<Part1>141604952</Part1>
+			<Part2>197248192</Part2>
+			<Part3>27975268</Part3>
+			<Part4>524288000</Part4>
+		</PartitionInfos>
+	</Info>
+	<Commands>
+		<processTrsfm srcPath="artransfer.br" />
+	</Commands>
+</PIPCONFIG>
